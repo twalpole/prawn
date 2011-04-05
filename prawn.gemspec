@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.files =  Dir.glob("{examples,lib,spec,data}/**/**/*") +
                       ["Rakefile", "prawn.gemspec"]
   spec.require_path = "lib"
-  spec.required_ruby_version = '>= 1.8.7'
+#  spec.required_ruby_version = '>= 1.8.7'
   spec.required_rubygems_version = ">= 1.3.6"
 
   spec.test_files = Dir[ "spec/*_spec.rb" ]
